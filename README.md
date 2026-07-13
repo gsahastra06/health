@@ -76,10 +76,7 @@ cp .env.example .env
 ```
 AGORA_APP_ID=your_app_id
 AGORA_APP_CERTIFICATE=your_certificate
-APP_ID=infermedica_id
-APP_KEY=infermedica_key
-BHASHINI_API_KEY=your_bhashini_key
-BHASHINI_USER_ID=your_user_id
+rule-based engine
 ```
 
 ### Step 3: Start the Server

@@ -297,7 +297,6 @@ asHA/
 ├── consultation.html          # Video consultation interface
 ├── script.js                  # Symptom checker logic
 ├── consultation.js            # Consultation controller
-├── bhashini-service.js        # Multilingual service
 ├── agora-service.js           # Video service
 ├── server.js                  # Express backend
 ├── package.json               # Dependencies
@@ -312,13 +311,6 @@ asHA/
 ### Agora (Video)
 - Account: https://console.agora.io
 - Docs: https://docs.agora.io/en/
-
-### Bhashini (Multilingual)
-- Website: https://bhashini.gov.in
-- Portal: https://speech.bhashini.gov.in
-
-
-
 ---
 
 ## 🤝 Contributing

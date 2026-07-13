@@ -6,8 +6,8 @@
 
 ## 🎯 Key Features
 
-### 1. **Multilingual Voice Interface (Bhashini)**
-- Record patient symptoms in local languages (Hindi, Tamil, Telugu, etc.)
+### 1. **Voice Interface**
+- Record patient symptoms in local languages (English,Telugu, etc.)
 - Automatic speech-to-text conversion
 - Real-time translation to English for diagnosis
 - Voice-based feedback in patient's preferred language

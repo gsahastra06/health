@@ -228,9 +228,9 @@ curl http://localhost:5000/health
 │         ASHA Worker (Mobile)            │
 ├─────────────────────────────────────────┤
 │  • Symptom Recording (Voice)            │
-│  • Bhashini: Speech-to-Text, Translation│
+│  • Rule Based Triage│
 │  • Agora: Video Call Ready              │
-│  • Offline Data Sync                    │
+                  │
 └──────────────┬──────────────────────────┘
                │
         ┌──────▼──────┐
@@ -276,14 +276,6 @@ docker build -t healthbridge .
 docker run -p 5000:5000 --env-file .env healthbridge
 ```
 
-### Cloud Deployment (Heroku)
-```bash
-heroku login
-heroku create healthbridge-app
-heroku config:set AGORA_APP_ID=xxx --app healthbridge-app
-git push heroku main
-```
-
 ---
 
 ## 📂 File Structure
@@ -311,30 +303,8 @@ asHA/
 - Docs: https://docs.agora.io/en/
 ---
 
-## 🤝 Contributing
 
-Contributions welcome! Please:
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/NewFeature`)
-3. Commit changes (`git commit -m 'Add NewFeature'`)
-4. Push to branch (`git push origin feature/NewFeature`)
-5. Open Pull Request
 
----
-
-## 📞 Support & Issues
-
-- Report bugs: [Issue Tracker](github.com/healthbridge/issues)
-- Documentation: Check `/docs` folder
-- Community: Join our Slack channel
-
----
-
-## 📄 License
-
-MIT License - See [LICENSE](LICENSE) file
-
----
 
 ## 🌍 Impact
 

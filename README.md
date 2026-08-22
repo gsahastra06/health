@@ -38,7 +38,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML5, CSS3, JavaScript
+- **Frontend:** HTML5, CSS3, TypeScript
 - **Backend:** Node.js 
 - **Video:** Agora RTC SDK
 - **Multilingual:** Web Speech API 
@@ -55,8 +55,7 @@
 - Modern web browser with microphone/camera support
 - Accounts with:
   - [Agora.io](https://agora.io)
-  - [Infermedica](https://infermedica.com)
-  - [Bhashini](https://bhashini.gov.in)
+  
 
 ### Step 1: Clone & Install Dependencies
 ```bash
@@ -88,7 +87,6 @@ npm run dev
 npm start
 ```
 
-Server runs on `http://localhost:5000`
 
 ---
 
